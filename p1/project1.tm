@@ -35,7 +35,7 @@
 
   <big-table|<block*|<tformat|<table|<row|<cell|Algorithm>|<cell|<math|RMSE<rsub|cv>>>|<cell|<math|<with|font-series|bold|RMSE<rsub|submission>>>>>|<row|<cell|Ridge
   Regression>|<cell|947>|<cell|866>>|<row|Gaussian
-  Process|<cell|841>|<cell|>>|<row|<cell|SMOreg>|<cell|981>|<cell|>>|<row|<cell|REPTree>|<cell|746>|<cell|>>|<row|<cell|Bagging
+  Process|<cell|841>|<cell|823.94>>|<row|<cell|SMOreg>|<cell|981>|876.44>|<row|<cell|REPTree>|<cell|746>|780.51>|<row|<cell|Bagging
   (of REPTree)>|<cell|652>|<cell|682>>>>>|Performance of several
   <label|tb>algorithms>
 
@@ -74,15 +74,15 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-2|<tuple|1|1|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-3|<tuple|2|1|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-4|<tuple|1|1|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-5|<tuple|3|2|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-6|<tuple|2|2|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-7|<tuple|4|2|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|auto-8|<tuple|5|?|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
-    <associate|tb|<tuple|1|1|../../../../.TeXmacs/texts/scratch/no_name_3.tm>>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|1|1>>
+    <associate|auto-3|<tuple|2|1>>
+    <associate|auto-4|<tuple|1|2>>
+    <associate|auto-5|<tuple|3|2>>
+    <associate|auto-6|<tuple|2|2>>
+    <associate|auto-7|<tuple|4|2>>
+    <associate|auto-8|<tuple|5|2>>
+    <associate|tb|<tuple|1|2>>
   </collection>
 </references>
 
@@ -90,6 +90,8 @@
   <\collection>
     <\associate|figure>
       <tuple|normal|Interface of WEKA|<pageref|auto-2>>
+
+      <tuple|normal|Correlation plot of features|<pageref|auto-6>>
     </associate>
     <\associate|table>
       <tuple|normal|Performance of several algorithms|<pageref|auto-4>>
@@ -109,11 +111,11 @@
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>Parameters>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-6><vspace|0.5fn>
+      <no-break><pageref|auto-7><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|5<space|2spc>Lessons
       learned> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-7><vspace|0.5fn>
+      <no-break><pageref|auto-8><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
